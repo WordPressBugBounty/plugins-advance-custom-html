@@ -2,7 +2,7 @@
 Contributors: bplugins, charlescormier, abuhayat, shehabulislam
 Donate link: https://www.buymeacoffee.com/abuhayat
 Tags: block, HTML, code, custom HTML, JavaScript, gutenberg 
-Requires at least: 5.9+
+Requires at least: 5.8+
 Tested up to: 6.6.2
 Stable tag: 1.0.0
 Requires PHP: 7.1
