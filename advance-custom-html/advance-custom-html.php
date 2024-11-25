@@ -3,8 +3,8 @@
 /**
  * Plugin Name: Advance Custom HTML
  * Description: An advance html code editor which enable you to code professionally. It provides different skins, denting, correction and more. 
- * Version: 1.0.1
- * Author: bPlugins LLC
+ * Version: 1.0.2
+ * Author: bPlugins
  * Author URI: http://bplugins.com
  * License: GPLv3
  * License URI: https://www.gnu.org/licenses/gpl-3.0.txt
