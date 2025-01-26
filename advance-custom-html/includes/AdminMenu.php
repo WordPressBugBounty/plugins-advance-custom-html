@@ -25,7 +25,7 @@ if (!class_exists('ACHBAdminMenu')) {
     function renderPage()
     {
       ?>
-      <div id="bplAdminHelpPage">
+      <div id="bplAdminHelpPage"  data-version="<?php echo esc_attr(ACHB_VERSION); ?>"  data-is-premium='<?php echo esc_attr(achbIsPremium()); ?>'>
 
       </div>
       <?php
@@ -36,6 +36,7 @@ if (!class_exists('ACHBAdminMenu')) {
       if ('tools_page_advanced-custom-html' === $hook) {
         wp_enqueue_style('achb-admin-help', ACHB_DIR_URL . 'build/admin-help.css', [], ACHB_VERSION);
         wp_enqueue_script('achb-admin-help', ACHB_DIR_URL . 'build/admin-help.js', ['react', 'react-dom'], ACHB_VERSION);
+        wp_enqueue_script('fs', ACHB_DIR_URL . 'assets/js/fs.js', [], '1');
         wp_set_script_translations('achb-admin-help', 'custom-html', ACHB_DIR_PATH . 'languages');
       }
     }

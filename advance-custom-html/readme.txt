@@ -1,15 +1,15 @@
 === Advance Custom HTML   ===
-Contributors: bplugins, abuhayat, taninrahman21, charlescormier
+Contributors: bplugins, abuhayat, taninrahman, charlescormier, freemius
 Donate link: https://gum.co/wpdonate/
-Tags: block, HTML, code, custom HTML, JavaScript
+Tags: block, HTML, code, custom HTML, JavaScript, code embed
 Requires at least: 6.5+
 Tested up to: 6.7
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 Requires PHP: 7.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Write code, showcase, style, and preview code in WordPress with a versatile editor plugin, offering interactive features and customization.
+Easily display, style, and preview code in WordPress with a versatile editor plugin. Enhance your content with interactive features and customizable options.
 
 == Description ==
 
@@ -145,6 +145,10 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 
 == Changelog ==
+
+= 1.0.3 =
+* Fixed issue
+* Update redirect page
 
 = 1.0.2 =
 * Fixed issue
