@@ -1,15 +1,15 @@
 === Advance Custom HTML   ===
-Contributors: bplugins, abuhayat, taninrahman, charlescormier, freemius
+Contributors: bplugins, abuhayat, taninrahman21, taninrahman, charlescormier, freemius
 Donate link: https://gum.co/wpdonate/
-Tags: block, HTML, code, custom HTML, code embed
+Tags: block, HTML, code, custom HTML, JavaScript, code embed
 Requires at least: 6.5+
-Tested up to: 6.7
-Stable tag: 1.0.4
+Tested up to: 6.8
+Stable tag: 1.0.5
 Requires PHP: 7.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Easily display, style, and preview code in WordPress with a versatile editor plugin. Enhance content with interactive, customizable features.
+Easily display, style, and preview code in WordPress with a versatile editor plugin. Enhance your content with interactive features and customizable options.
 
 == Description ==
 
@@ -33,7 +33,7 @@ Advance Custom HTML is the best and easiest way to write code and display code t
 ##  ADVANCE CUSTOM HTML IS PERFECT FOR ##
 
 * **Developers**
-* **Educators**
+* **Educators **
 * **Content Creators**
 * **Any Website with Code Snippets**
 
@@ -145,6 +145,9 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 
 == Changelog ==
+
+= 1.0.5 =
+* Update Admin Dashboard
 
 = 1.0.4 =
 * Update SDK version
