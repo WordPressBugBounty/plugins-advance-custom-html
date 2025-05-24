@@ -1,15 +1,15 @@
 === Advance Custom HTML   ===
 Contributors: bplugins, abuhayat, taninrahman21, taninrahman, charlescormier, freemius
 Donate link: https://gum.co/wpdonate/
-Tags: block, HTML, code, custom HTML, JavaScript, code embed
+Tags: block, HTML, code, custom HTML, JavaScript
 Requires at least: 6.5+
-Tested up to: 6.8
+Tested up to: 6.8.1
 Stable tag: 1.0.5
 Requires PHP: 7.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Easily display, style, and preview code in WordPress with a versatile editor plugin. Enhance your content with interactive features and customizable options.
+This plugin lets you write, display, and preview code output elegantly in WordPress. Enjoy interactive features and customizable styling options.
 
 == Description ==
 
@@ -33,7 +33,7 @@ Advance Custom HTML is the best and easiest way to write code and display code t
 ##  ADVANCE CUSTOM HTML IS PERFECT FOR ##
 
 * **Developers**
-* **Educators **
+* **Educators**
 * **Content Creators**
 * **Any Website with Code Snippets**
 
@@ -64,7 +64,8 @@ See the features that make Advance Custom HTML the **Best Code Editor for WordPr
 * Hide/Show Fold Gutter
 * Autocompletion Enable/Disable
 * Wrap Enable/Disable
-* Edit Code Editor Height and Width
+* Edit Code Editor Height and Width,
+* Add border with radius. 
 
 ### Why Advance Custom HTML is such a best plugin for Wordpress? ###
 
@@ -76,7 +77,7 @@ See the features that make Advance Custom HTML the **Best Code Editor for WordPr
 
 * **Built for Developers and Creators** — Whether you’re a developer building tutorials, an educator creating lessons, or a content creator sharing code snippets, this plugin is designed to meet all your needs in one intuitive package.
 
-#### Advance Cusotm HTML is perfect for: ####
+#### Who Should Use This Plugin for the Best Experience: ####
 ✔ Bloggers
 ✔ Coaches / Trainers
 ✔ Content Creators
@@ -145,6 +146,9 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 
 == Changelog ==
+
+= 1.0.6 =
+* Added a New Feature+
 
 = 1.0.5 =
 * Update Admin Dashboard
