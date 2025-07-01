@@ -1,109 +1,139 @@
-=== Advance Custom HTML   ===
-Contributors: bplugins, abuhayat, taninrahman21, taninrahman, charlescormier, freemius
+=== Advance Custom HTML ===
+Contributors: bplugins, abuhayat, taninrahman, shehabulislam, freemius
 Donate link: https://gum.co/wpdonate/
-Tags: block, HTML, code, custom HTML, JavaScript
+Tags: block, code, custom HTML, code snippet, JavaScript
 Requires at least: 6.5+
 Tested up to: 6.8.1
-Stable tag: 1.0.5
+Stable tag: 1.0.7
 Requires PHP: 7.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-This plugin lets you write, display, and preview code output elegantly in WordPress. Enjoy interactive features and customizable styling options.
+Advance Custom HTML lets you write and display HTML, CSS, PHP, and other code snippets on WordPress with live preview and syntax highlighting.
 
 == Description ==
-
-An Advanced Custom HTML plugin is used to write code with ease and produce code outputs, or to display code snippets on your website in an elegant manner.
-
-👉 [Plugin Demo](https://bplugins.com/products/advance-custom-html) | [Get Pro Version](https://bplugins.com/products/advance-custom-html/#pricing) 👈
-
-## The Greatest Code Editor For Wordpress Is Now Available ★★★★★ ##
-
-The **Advanced Custom HTML** plugin is the ideal solution for showcasing code snippets or creating interactive coding experiences on your WordPress site. Designed for developers, educators, and content creators, it lets you write, display, and customize code effortlessly while providing a seamless output preview. With a feature-rich interface, it makes presenting code both functional and visually appealing.
-
-A standout feature is the draggable live output viewer, enabling users to test and preview code in real time. This makes it perfect for tutorials, demonstrations, or educational content. The plugin also allows you to beautifully display code with customizable headings, a "Copy to Clipboard" button, and flexible layout options to ensure your code fits perfectly into your site’s design.
-
-Customization is key, with over 40+ themes to match any aesthetic. Whether you prefer sleek dark themes or clean light ones, this plugin delivers. Features like line numbers, font size, tab size, code wrapping, auto-completion, and fold gutters enhance functionality and readability. Additionally, users can choose different languages for syntax highlighting, ensuring accurate and visually distinct code styling for various programming languages.  You can fully customize the "Copy to Clipboard" button or hide it for a minimalistic display.
-
-With options to set custom editor dimensions and styling, this lightweight and fast plugin gives you full control over code presentation. Perfect for developers sharing projects, educators creating interactive lessons, or content creators adding polished code snippets, the **Advanced Custom HTML** plugin brings your content to life.
+**#1 Plugin to Display Any Code Snippet Beautifully in WordPress' at the top of the description.**
 
 
-Advance Custom HTML is the best and easiest way to write code and display code to your website.
-
-##  ADVANCE CUSTOM HTML IS PERFECT FOR ##
-
-* **Developers**
-* **Educators**
-* **Content Creators**
-* **Any Website with Code Snippets**
+[**Advance Custom HTML**](https://bplugins.com/products/advance-custom-html/) | [**Pricing**](https://bplugins.com/products/advance-custom-html/#pricing) | [**Support**](https://bplugins.com/support/) | [**Demo**](https://bplugins.com/products/advance-custom-html/#demos)
 
 
-###  ADVANCE CUSTOM HTML'S GAME-CHANGING FEATURES ###
+[**Advance Custom HTML**](https://bplugins.com/products/advance-custom-html/) lets users display HTML, CSS, JavaScript, PHP, Python, or other code snippets within WordPress posts, pages, or widgets. With built-in live preview support, syntax highlighting, and code editor features, it’s designed for sharing code in a clean, readable, and responsive format.
 
-See the features that make Advance Custom HTML the **Best Code Editor for WordPress**.
-
-* Easy to use
-* Display code output
-* Autocomplete code
-* Suggest code
-* Live preview
-* Drag preview panel anywhere on the screen
- 
-**Pro Features**
-
-* Embed the code to frontend.
-* Change Theme(40+ themes) for better look.
-* Edit Tab Size
-* Change Different Language For Different Syntax
-* Display Heading
-* Hide/Show Copy Button
-* Change Position of Copy Button When Heading is Disable
-* Change Copy Button Type Like You Can Keep Icon or Text(You can change text with your needed)
-* Styles Copy Button
-* Hide/Show Highlight Active Line
-* Hide/Show Fold Gutter
-* Autocompletion Enable/Disable
-* Wrap Enable/Disable
-* Edit Code Editor Height and Width,
-* Add border with radius. 
-
-### Why Advance Custom HTML is such a best plugin for Wordpress? ###
-
-* **No Plugin Like It** — This is the only WordPress plugin that allows users to write code, display it beautifully, and view its output all within a single solution. It’s the ultimate combination of functionality and flexibility for code-based content.
-
-* **Other Code Plugins Fall Short** — Most plugins either focus on code display or execution, but not both. With Advanced Code Editor & Output Viewer, you get a seamless experience for writing, showcasing, and previewing code, all in one place.
-
-* **Complete Control & Customization** — Unlike other plugins, this one gives you full control over themes, syntax highlighting, copy button styling, and editor dimensions, all while keeping everything lightweight and performance-focused.
-
-* **Built for Developers and Creators** — Whether you’re a developer building tutorials, an educator creating lessons, or a content creator sharing code snippets, this plugin is designed to meet all your needs in one intuitive package.
-
-#### Who Should Use This Plugin for the Best Experience: ####
-✔ Bloggers
-✔ Coaches / Trainers
-✔ Content Creators
-✔ Educators & Course Creators
-✔ Web Designers & Developers
-✔ Tech Bloggers
-✔ Niche Sites 
-✔ Businesses & Startups
-✔ All WordPress Websites
-
-## ⭐ Check out the Parent Plugin of this plugin- ##
-
-🔥 **[b Blocks](https://bblockswp.com/)** – Best gutenberg blocks collections for WordPress.
+This plugin includes a front-end code editor with a draggable preview panel, multiple syntax themes, and customizable settings for formatting and appearance. Ideal for tutorials, technical articles, and documentation, it provides a flexible way to embed and present code with real-time results.
 
 
-## ⭐ Check out our other WordPress Plugins- ##
+### Free Features – Everything You Need to Start
 
-🔥 **[Html5 Audio Player](https://audioplayerwp.com/)** – Best audio player plugin for WordPress.
+- **Edit code and preview output together** on the editor/backend.
 
-🔥 **[Html5 Video Player](https://wpvideoplayer.com/)** – Best video player plugin for WordPress.
+- **Live Output Preview**: See the results of your code instantly
 
-🔥 **[PDF Poster](http://pdfposter.com/)** – A fully-featured PDF Viewer Plugin for WordPress.
+- **Autocomplete suggestions** while writing code
 
-🔥 **[StreamCast](https://wordpress.org/plugins/streamcast)** – A fully-featured Radio Player Plugin for WordPress.
+- Draggable **Preview Panel** to move output anywhere on screen
 
-🔥 **[3D Viewer](https://3d-viewer.bplugins.com/)** – Display interactive 3D models on the webs.
+- Set editor **Font Size**
+
+- **Fully responsive**, mobile-friendly interface
+
+- **Lightweight and fast** for better performance
+
+
+### Pro Features – Unlock Advanced Controls
+The [**Pro version**](https://bplugins.com/products/advance-custom-html/#pricing) offers extended customization and control over code presentation and layout.
+
+**What’s Included in Pro:**
+
+- Choose from **40+ editor themes** (dark, light, minimal, etc.)
+
+- Adjust **Tab size, line wrapping, editor height/width**
+
+- Change syntax mode per snippet: **HTML, CSS, JS, PHP, Python, and more**
+
+- Toggle features: **Copy button, Fold gutter, Highlight active line**, etc.
+
+- Customize the **Copy to Clipboard** button text, icon, style, and position
+
+- Hide **Headings or Labels** for a clean, minimalist look
+
+- Hide or Show **Line numbers** to simplify code presentation
+
+- Enable or Disable **Wrap** to control line flow in your editor
+
+- Edit Code Editor/Snippet **Height and Width**, and align left, center, or right
+
+- **Fold Gutter** support for collapsing code blocks
+
+- **Highlight Active Line** Toggle for easier focus during tutorials
+
+
+### How to Use – Step-by-Step Guide
+
+#### Quick setup in just a few steps:
+
+- Install the **Advance Custom HTML**
+
+- Open the editor for any post or page
+
+- Click **Add Block** and select **Advance Custom HTML** under Widgets
+
+- Write or paste your code
+
+- Customize the settings (theme, preview, copy button)
+
+- Publish or update the content
+
+
+### Use Cases:
+
+- Write and preview front-end **HTML/CSS tutorials**
+
+- Embed **JavaScript snippets** with instant results
+
+- Display **PHP code** in educational content
+
+- Show **Python syntax** in data science blogs
+
+- Publish developer documentation or **API guides**
+
+- Create interactive code articles with **live editing**
+
+
+### Perfect For:
+
+- Bloggers and Tech Writers
+
+- Coaches, Instructors, and Course Creators
+
+- Web Developers and Designers
+
+- Software Product Sites
+
+- Niche Tutorials & SaaS Startups
+
+- Business Sites with Technical Content
+
+- Anyone publishing HTML, JS, CSS, PHP, or Python code
+
+
+[**Live Demo**](https://bplugins.com/products/advance-custom-html/#demos) | [**Buy The Pro**](https://bplugins.com/products/advance-custom-html/#pricing)
+
+
+### Check out our other WordPress Plugins-
+
+[**Html5 Video Player**](https://bplugins.com/products/html5-video-player/) – Display videos as single and playlist in multiple skins.
+
+[**PDF Poster**](https://bplugins.com/products/pdf-poster/) – Display/Embed PDF files with different styles.
+
+[**Html5 Audio Player**](https://bplugins.com/products/html5-audio-player/) – Listen audios with awesome visuals.
+
+[**StreamCast**](https://bplugins.com/products/streamcast-radio-player/) – Customizable radio player with different skins.
+
+[**3D Viewer**](https://bplugins.com/products/3d-viewer/) – Embed 3D models and 3D products with interaction.
+
+[**Advanced Post Block**](https://bplugins.com/products/advanced-post-block/) – Show posts and custom posts in different layouts.
+
 
 == Installation ==
 
@@ -124,6 +154,38 @@ See the features that make Advance Custom HTML the **Best Code Editor for WordPr
 
 == Frequently Asked Questions ==
 
+= What types of code can I embed with Advance Custom HTML? =
+
+You can embed HTML, CSS, JavaScript, PHP, Python, and other programming languages. The plugin supports syntax highlighting and live preview for many common formats.
+
+= How do I display a code snippet in a post or page? =
+
+You can use either the Gutenberg block or the shortcode provided when you create a new snippet. Just paste it into any post, page, or widget area.
+
+= Can I show the live output of my code? =
+
+Yes. The plugin includes a draggable preview panel that shows live output for front-end code like HTML, CSS, and JavaScript.
+
+= Does this plugin support syntax highlighting? =
+
+Yes, syntax highlighting is built-in and supports multiple languages. You can also choose from over 40 editor themes to match your site.
+
+= Can I disable certain features like the copy button or line numbers? =
+
+Yes. You can toggle settings like line numbers, copy button, wrap lines, fold gutter, and more.
+
+= Can I display multiple code snippets on one page? =
+
+Yes. You can insert as many snippets as needed using shortcodes or blocks. Each snippet has its own settings and display options.
+
+= Is the plugin responsive and mobile-friendly? =
+
+Yes. All embedded code blocks and preview panels are designed to work across devices of all sizes.
+
+= How do I change the appearance of the code editor? =
+
+You can choose from a wide range of themes and customize font size, spacing, layout, and more from the editor settings.
+
 = Does it work with any WordPress theme? =
 
 Yes, it will work with any standard WordPress theme.
@@ -132,10 +194,6 @@ Yes, it will work with any standard WordPress theme.
 
 Yes, you can change block settings from the Gutenberg block editor's right sidebar.
 
-= How many times can I reuse a block? =
-
-You can use unlimited times as you want.
-
 = Where can I get support? =
 
 You can post your questions on the [support forum here](https://wordpress.org/support/plugin/custom-html/)
@@ -143,9 +201,19 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 == Screenshots ==
 
+1. Add Advance Custom HTML Block
+2. HTML with Preview in Editor
+3. Gutenberg Block Settings
+4. Preview rendered HTML in frontend
+5. Preview Code snipped
+6. Preview Code snipped without heading
+7. Preview Code snipped with bottom copy button
 
 
 == Changelog ==
+
+= 1.0.7 =
+* Solve preview issue in Editor
 
 = 1.0.6 =
 * Added a New Feature+
@@ -178,7 +246,6 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 * Autocompletion Enable/Disable
 * Wrap Enable/Disable
 * Edit Code Editor Height and Width
-
 
 = 1.0.0 =
 * Initial Release

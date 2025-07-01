@@ -3,7 +3,7 @@
 /**
  * Plugin Name: Advance Custom HTML
  * Description: An advance html code editor which enable you to code professionally. It provides different skins, denting, correction and more. 
- * Version: 1.0.6
+ * Version: 1.0.7
  * Author: bPlugins
  * Author URI: http://bplugins.com
  * License: GPLv3
@@ -24,7 +24,7 @@ if ( function_exists( 'achb_fs' ) ) {
         }
     } );
 } else {
-    define( 'ACHB_VERSION', ( isset( $_SERVER['HTTP_HOST'] ) && 'localhost' === $_SERVER['HTTP_HOST'] ? time() : '1.0.6' ) );
+    define( 'ACHB_VERSION', ( isset( $_SERVER['HTTP_HOST'] ) && 'localhost' === $_SERVER['HTTP_HOST'] ? time() : '1.0.7' ) );
     define( 'ACHB_DIR_URL', plugin_dir_url( __FILE__ ) );
     define( 'ACHB_DIR_PATH', plugin_dir_path( __FILE__ ) );
     define( 'ACHB_HAS_FREE', 'advance-custom-html/advance-custom-html.php' === plugin_basename( __FILE__ ) );
