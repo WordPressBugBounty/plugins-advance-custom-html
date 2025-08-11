@@ -39,6 +39,8 @@
         "copyBtnPosition": "topright",
         "height": "400px",
         "width": "100%",
+        "embeddedContentHeight": "600px",
+        "embeddedContentWidth": "100%",
         "border": {
           "color": "",
           "style": "",
@@ -75,7 +77,8 @@
         "tabSize": 2,
         "displayCodeToFrontend": false,
         "displayHeading": false,
-        "displayCopyBtn": false
+        "displayCopyBtn": false,
+        "setEmbededContentHeightWidht": false
       }
     },
     "btnStyle": {
@@ -105,11 +108,15 @@
     }
   },
   "editorScript": [
-    "wp-api",
-    "file:./index.js"
+    "file:./index.js",
+    "wp-api"
   ],
-  "editorStyle": [
-    "file:./index.css"
-  ],
-  "script": "file:./view.js"
+  "editorStyle": "file:./index.css",
+  "style": "file:./view.css",
+  "render": "file:./render.php",
+  "viewScript": [
+    "file:./view.js",
+    "react",
+    "react-dom"
+  ]
 }
