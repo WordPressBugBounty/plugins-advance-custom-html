@@ -78,7 +78,8 @@
         "displayCodeToFrontend": false,
         "displayHeading": false,
         "displayCopyBtn": false,
-        "setEmbededContentHeightWidht": false
+        "setEmbededContentHeightWidht": false,
+        "isRenderViaIframe": false
       }
     },
     "btnStyle": {

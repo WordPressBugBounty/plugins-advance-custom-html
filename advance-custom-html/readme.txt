@@ -1,10 +1,10 @@
-=== Advance Custom HTML ===
+=== Advance Custom HTML – Display Code Snippets with Syntax Highlighter ===
 Contributors: bplugins, abuhayat, taninrahman, shehabulislam, freemius
 Donate link: https://gum.co/wpdonate/
 Tags: block, code, custom HTML, code snippet, JavaScript
 Requires at least: 6.5+
-Tested up to: 6.8.1
-Stable tag: 1.0.8
+Tested up to: 6.8
+Stable tag: 1.0.9
 Requires PHP: 7.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -211,6 +211,9 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 
 == Changelog ==
+
+= 1.0.9 =
+* Fixed Issues
 
 = 1.0.8 =
 * Solve Issues
