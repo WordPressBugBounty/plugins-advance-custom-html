@@ -1,10 +1,10 @@
-=== Advance Custom HTML – Display Code Snippets with Syntax Highlighter ===
+=== Advance Custom HTML ===
 Contributors: bplugins, abuhayat, taninrahman, shehabulislam, freemius
 Donate link: https://gum.co/wpdonate/
 Tags: block, code, custom HTML, code snippet, JavaScript
 Requires at least: 6.5+
 Tested up to: 6.8
-Stable tag: 1.0.9
+Stable tag: 2.0.0
 Requires PHP: 7.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -15,7 +15,7 @@ Advance Custom HTML lets you write and display HTML, CSS, PHP, and other code sn
 **#1 Plugin to Display Any Code Snippet Beautifully in WordPress' at the top of the description.**
 
 
-[**Advance Custom HTML**](https://bplugins.com/products/advance-custom-html/) | [**Pricing**](https://bplugins.com/products/advance-custom-html/#pricing) | [**Support**](https://bplugins.com/support/) | [**Demo**](https://bplugins.com/products/advance-custom-html/#demos)
+[**Advance Custom HTML**](https://bplugins.com/products/advance-custom-html/) | [**Pricing**](https://bplugins.com/products/advance-custom-html/pricing/) | [**Support**](https://bplugins.com/support/) | [**Demo**](https://bplugins.com/products/advance-custom-html/#demos)
 
 
 [**Advance Custom HTML**](https://bplugins.com/products/advance-custom-html/) lets users display HTML, CSS, JavaScript, PHP, Python, or other code snippets within WordPress posts, pages, or widgets. With built-in live preview support, syntax highlighting, and code editor features, it’s designed for sharing code in a clean, readable, and responsive format.
@@ -211,6 +211,9 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 
 == Changelog ==
+
+= 2.0.0, 15 September, 2025 =
+* Update Modern Dashboard and Fixed Issues
 
 = 1.0.9 =
 * Fixed Issues

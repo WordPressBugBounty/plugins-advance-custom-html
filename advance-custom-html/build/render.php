@@ -1,7 +1,7 @@
 <?php
 $id   = wp_unique_id('bPluginsCustomHtml-');
 $HTML = $attributes['HTML'];
-$isRenderViaIframe = $attributes['options']['isRenderViaIframe'];
+$isRenderViaIframe = $attributes['options']['isRenderViaIframe'] ?? false;
 $isDisplayCodeToFrontend = $attributes['options']['displayCodeToFrontend'];
 
 if (empty($isDisplayCodeToFrontend) && empty($isRenderViaIframe)) {

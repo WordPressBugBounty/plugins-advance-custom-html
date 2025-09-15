@@ -3,7 +3,7 @@
 /**
  * Plugin Name: Advance Custom HTML
  * Description: An advance html code editor which enable you to code professionally. It provides different skins, denting, correction and more. 
- * Version: 1.0.9
+ * Version: 2.0.0
  * Author: bPlugins
  * Author URI: http://bplugins.com
  * License: GPLv3
@@ -24,7 +24,7 @@ if ( function_exists( 'achb_fs' ) ) {
         }
     } );
 } else {
-    define( 'ACHB_VERSION', ( isset( $_SERVER['HTTP_HOST'] ) && 'localhost' === $_SERVER['HTTP_HOST'] ? time() : '1.0.9' ) );
+    define( 'ACHB_VERSION', ( isset( $_SERVER['HTTP_HOST'] ) && 'localhost' === $_SERVER['HTTP_HOST'] ? time() : '2.0.0' ) );
     define( 'ACHB_DIR_URL', plugin_dir_url( __FILE__ ) );
     define( 'ACHB_DIR_PATH', plugin_dir_path( __FILE__ ) );
     define( 'ACHB_HAS_FREE', 'advance-custom-html/advance-custom-html.php' === plugin_basename( __FILE__ ) );
@@ -96,7 +96,10 @@ if ( function_exists( 'achb_fs' ) ) {
                 wp_send_json_error( 'Invalid Request' );
             }
             wp_send_json_success( [
-                'isPipe' => achbIsPremium(),
+                'isPipe' => [
+                    'isPipe'   => achbIsPremium(),
+                    'adminUrl' => admin_url(),
+                ],
             ] );
         }
 
@@ -121,17 +124,16 @@ if ( function_exists( 'achb_fs' ) ) {
             wp_set_script_translations( 'achb-editor', 'custom-html', plugin_dir_path( __FILE__ ) . 'languages' );
         }
 
-        function render( $attributes ) {
-            extract( $attributes );
-            $isDisplayCodeToFrontend = $attributes["options"]["displayCodeToFrontend"];
-            $id = wp_unique_id( 'bPluginsCustomHtml-' );
-            if ( empty( $isDisplayCodeToFrontend ) ) {
-                return $HTML;
-            } else {
-                return '<div ' . get_block_wrapper_attributes() . ' id="' . esc_attr( $id ) . '" data-attributes="' . esc_attr( wp_json_encode( $attributes ) ) . '"></div>';
-            }
-        }
-
+        // function render($attributes) {
+        // 	extract($attributes);
+        // 	$isDisplayCodeToFrontend = $attributes["options"]["displayCodeToFrontend"];
+        // 	$id = wp_unique_id('bPluginsCustomHtml-');
+        // 	if (empty($isDisplayCodeToFrontend)) {
+        // 		return $HTML;
+        // 	} else {
+        // 		return '<div ' . get_block_wrapper_attributes() . ' id="' . esc_attr($id) . '" data-attributes="' . esc_attr(wp_json_encode($attributes)) . '"></div>';
+        // 	}
+        // }
     }
 
     new ACHB_Main();

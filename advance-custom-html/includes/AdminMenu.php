@@ -22,24 +22,25 @@ if (!class_exists('ACHBAdminMenu')) {
       );
     }
 
-    function renderPage()
-    {
+    function renderPage() {
       ?>
-      <div id="bplAdminHelpPage"  data-version="<?php echo esc_attr(ACHB_VERSION); ?>"  data-is-premium='<?php echo esc_attr(achbIsPremium()); ?>'>
-
-      </div>
+      <div id="bplAdminHelpPageWrapper"
+      data-info='<?php echo esc_attr( wp_json_encode( [
+                'version' => ACHB_VERSION,
+                'isPremium' => esc_attr(achbIsPremium()),
+            ] ) ); ?>'
+      ></div>
       <?php
     }
 
-    function adminEnqueueScripts($hook)
-    {
+    function adminEnqueueScripts($hook) {
       if ('tools_page_advanced-custom-html' === $hook) {
-        wp_enqueue_style('achb-admin-help', ACHB_DIR_URL . 'build/admin-help.css', [], ACHB_VERSION);
-        wp_enqueue_script('achb-admin-help', ACHB_DIR_URL . 'build/admin-help.js', ['react', 'react-dom'], ACHB_VERSION);
-        wp_enqueue_script('fs', ACHB_DIR_URL . 'assets/js/fs.js', [], '1');
+        wp_enqueue_style('achb-admin-help', ACHB_DIR_URL . 'build/admin-dashboard.css', [], ACHB_VERSION);
+        wp_enqueue_script('achb-admin-help', ACHB_DIR_URL . 'build/admin-dashboard.js', ['react', 'react-dom'], ACHB_VERSION);
         wp_set_script_translations('achb-admin-help', 'custom-html', ACHB_DIR_PATH . 'languages');
       }
     }
+    
   }
   new ACHBAdminMenu();
 }
