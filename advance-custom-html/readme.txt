@@ -198,6 +198,10 @@ Yes, you can change block settings from the Gutenberg block editor's right sideb
 
 You can post your questions on the [support forum here](https://wordpress.org/support/plugin/custom-html/)
 
+= Where do I report security bugs found in this plugin? =
+
+Please report security bugs found in the source code of the Advance Custom HTML plugin through the [Patchstack Vulnerability Disclosure Program](https://patchstack.com/database/vdp/9e5fc69c-ad86-4b05-9ec9-ca0dec118598). The Patchstack team will assist you with verification, CVE assignment, and notify the developers of this plugin.
+
 
 == Screenshots ==
 
