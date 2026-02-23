@@ -3,7 +3,7 @@
 /**
  * Plugin Name: Advance Custom HTML
  * Description: An advance html code editor which enable you to code professionally. It provides different skins, denting, correction and more. 
- * Version: 2.0.3
+ * Version: 2.0.4
  * Author: bPlugins
  * Author URI: http://bplugins.com
  * License: GPLv3
@@ -16,7 +16,7 @@ if ( !defined( 'ABSPATH' ) ) {
 if ( function_exists( 'achb_fs' ) ) {
     achb_fs()->set_basename( false, __FILE__ );
 } else {
-    define( 'ACHB_VERSION', ( isset( $_SERVER['HTTP_HOST'] ) && 'localhost' === $_SERVER['HTTP_HOST'] ? time() : '2.0.3' ) );
+    define( 'ACHB_VERSION', ( isset( $_SERVER['HTTP_HOST'] ) && 'localhost' === $_SERVER['HTTP_HOST'] ? time() : '2.0.4' ) );
     define( 'ACHB_DIR_URL', plugin_dir_url( __FILE__ ) );
     define( 'ACHB_DIR_PATH', plugin_dir_path( __FILE__ ) );
     define( 'ACHB_HAS_FREE', 'advance-custom-html/advance-custom-html.php' === plugin_basename( __FILE__ ) );
@@ -40,7 +40,7 @@ if ( function_exists( 'achb_fs' ) ) {
                     'premium_slug'        => 'advance-custom-html-pro',
                     'type'                => 'plugin',
                     'public_key'          => 'pk_e99f567863d84a62f963ac66aeb42',
-                    'is_premium'          => true,
+                    'is_premium'          => false,
                     'premium_suffix'      => 'Pro',
                     'has_premium_version' => true,
                     'has_addons'          => false,
@@ -71,31 +71,18 @@ if ( function_exists( 'achb_fs' ) ) {
         return ( ACHB_HAS_PRO ? achb_fs()->can_use_premium_code() : false );
     }
 
+    if ( ACHB_HAS_PRO ) {
+        require_once ACHB_DIR_PATH . 'includes/LicenseActivation.php';
+    }
     // Main Plugin Logic
     require_once ACHB_DIR_PATH . 'includes/AdminMenu.php';
     class ACHB_Main {
         function __construct() {
-            add_filter(
-                'plugin_row_meta',
-                [$this, 'pluginRowMeta'],
-                10,
-                2
-            );
             add_action( 'init', [$this, 'init'] );
             add_action( 'wp_ajax_achbPipeChecker', [$this, 'achbPipeChecker'] );
             add_action( 'wp_ajax_nopriv_achbPipeChecker', [$this, 'achbPipeChecker'] );
             add_action( 'admin_init', [$this, 'registerSettings'] );
             add_action( 'rest_api_init', [$this, 'registerSettings'] );
-        }
-
-        function pluginRowMeta( $plugin_meta, $plugin_file ) {
-            if ( strpos( $plugin_file, 'advance-custom-html' ) !== false && time() < strtotime( '2025-12-06' ) ) {
-                $new_links = array(
-                    'deal' => "<a href='https://bplugins.com/coupons/?from=plugins.php&plugin=advance-custom-html' target='_blank' style='font-weight: 600; color: #146ef5;'>🎉 Black Friday Sale - Get up to 80% OFF Now!</a>",
-                );
-                $plugin_meta = array_merge( $plugin_meta, $new_links );
-            }
-            return $plugin_meta;
         }
 
         function achbPipeChecker() {
@@ -132,16 +119,6 @@ if ( function_exists( 'achb_fs' ) ) {
             wp_set_script_translations( 'achb-editor', 'custom-html', plugin_dir_path( __FILE__ ) . 'languages' );
         }
 
-        // function render($attributes) {
-        // 	extract($attributes);
-        // 	$isDisplayCodeToFrontend = $attributes["options"]["displayCodeToFrontend"];
-        // 	$id = wp_unique_id('bPluginsCustomHtml-');
-        // 	if (empty($isDisplayCodeToFrontend)) {
-        // 		return $HTML;
-        // 	} else {
-        // 		return '<div ' . get_block_wrapper_attributes() . ' id="' . esc_attr($id) . '" data-attributes="' . esc_attr(wp_json_encode($attributes)) . '"></div>';
-        // 	}
-        // }
     }
 
     new ACHB_Main();

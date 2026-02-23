@@ -1,16 +1,14 @@
 <?php
 
 if (!class_exists('ACHBAdminMenu')) {
-  class ACHBAdminMenu
-  {
+  class ACHBAdminMenu {
     function __construct()
     {
       add_action('admin_menu', [$this, 'adminMenu']);
       add_action('admin_enqueue_scripts', [$this, 'adminEnqueueScripts']);
     }
 
-    function adminMenu()
-    {
+    function adminMenu() {
       add_submenu_page(
         'tools.php',
         'Advance Custom HTML',
@@ -26,9 +24,11 @@ if (!class_exists('ACHBAdminMenu')) {
       ?>
       <div id="bplAdminHelpPageWrapper"
       data-info='<?php echo esc_attr( wp_json_encode( [
-                'version' => ACHB_VERSION,
-                'isPremium' => esc_attr(achbIsPremium()),
-            ] ) ); ?>'
+					'version' => ACHB_VERSION,
+					'isPremium' => achbIsPremium(),
+					'hasPro' => ACHB_HAS_PRO,
+					'licenseActiveNonce' => wp_create_nonce( 'bPlLicenseActivation' )
+				] ) ); ?>'
       ></div>
       <?php
     }
@@ -36,7 +36,9 @@ if (!class_exists('ACHBAdminMenu')) {
     function adminEnqueueScripts($hook) {
       if ('tools_page_advanced-custom-html' === $hook) {
         wp_enqueue_style('achb-admin-help', ACHB_DIR_URL . 'build/admin-dashboard.css', [], ACHB_VERSION);
-        wp_enqueue_script('achb-admin-help', ACHB_DIR_URL . 'build/admin-dashboard.js', ['react', 'react-dom'], ACHB_VERSION);
+
+        $asset_file = include ACHB_DIR_PATH . 'build/admin-dashboard.asset.php';
+				wp_enqueue_script( 'achb-admin-help', ACHB_DIR_URL . 'build/admin-dashboard.js', array_merge( $asset_file['dependencies'], [ 'wp-util' ] ), ACHB_VERSION, true );
         wp_set_script_translations('achb-admin-help', 'custom-html', ACHB_DIR_PATH . 'languages');
       }
     }

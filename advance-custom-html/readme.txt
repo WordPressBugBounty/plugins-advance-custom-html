@@ -2,9 +2,9 @@
 Contributors: bplugins, abuhayat, taninrahman, shehabulislam, freemius
 Donate link: https://gum.co/wpdonate/
 Tags: block, code, custom HTML, code snippet, embed code
-Requires at least: 6.5+
+Requires at least: 6.6+
 Tested up to: 6.9
-Stable tag: 2.0.3
+Stable tag: 2.0.4
 Requires PHP: 7.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -41,7 +41,7 @@ This plugin includes a front-end code editor with a draggable preview panel, mul
 
 
 ### Pro Features – Unlock Advanced Controls
-The [**Pro version**](https://bplugins.com/products/advance-custom-html/pricing) offers extended customization and control over code presentation and layout.
+The [**Pro version**](https://bplugins.com/products/advance-custom-html/#pricing) offers extended customization and control over code presentation and layout.
 
 **What’s Included in Pro:**
 
@@ -117,7 +117,7 @@ The [**Pro version**](https://bplugins.com/products/advance-custom-html/pricing)
 - Anyone publishing HTML, JS, CSS, PHP, or Python code
 
 
-[**Live Demo**](https://bplugins.com/products/advance-custom-html/#demos) | [**Buy The Pro**](https://bplugins.com/products/advance-custom-html/#pricing)
+[**Live Demo**](https://bplugins.com/products/advance-custom-html/#demos) | [**Buy The Pro**](https://bplugins.com/products/advance-custom-html/pricing)
 
 
 ### Check out our other WordPress Plugins-
@@ -215,6 +215,9 @@ Please report security bugs found in the source code of the Advance Custom HTML 
 
 
 == Changelog ==
+
+= 2.0.4 - 23 February 2026 =
+* **Update:** Redesigned the dashboard with a modern and improved user interface, replacing the previous outdated layout.
 
 = 2.0.3 - 2 December 2025 = 
 * Updated and offers to plugins description.
