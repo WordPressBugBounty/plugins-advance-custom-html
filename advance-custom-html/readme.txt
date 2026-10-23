@@ -1,124 +1,79 @@
-=== Advance Custom HTML - Show Live Code, Share Snippets, Embed Code, and Style Them Your Way. ===
-Contributors: bplugins, abuhayat, taninrahman, shehabulislam, freemius
-Donate link: https://gum.co/wpdonate/
-Tags: block, code, custom HTML, code snippet, embed code
-Requires at least: 6.6+
-Tested up to: 7.0
+=== Advance Custom HTML – Show Off Code Snippets with Live Preview ===
+Contributors: bplugins, abuhayat, sojibislam9878, freemius
+Tags: block, code, custom html, code snippet, embed code
+Tested up to: 7.1
 Stable tag: 2.1.1
 Requires PHP: 7.1
+Requires at least: 6.5
+Donate link: https://gum.co/wpdonate/
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Advance Custom HTML lets you write and display HTML, CSS, PHP, and other code snippets on WordPress with live preview and syntax highlighting.
+Display HTML, CSS, JavaScript, PHP & Python code snippets in WordPress with live preview, syntax highlighting and a copy button.
 
 == Description ==
-**#1 Plugin to Add Custom HTML & CSS & JavaScript Code and Display Any Code Snippet Beautifully in WordPress.**
 
+**Share HTML, CSS, JavaScript, PHP, and Python snippets that readers can see, copy and watch run live – right inside your posts and pages.**
 
-[**Advance Custom HTML**](https://bplugins.com/products/advance-custom-html/) lets users display HTML, CSS, JavaScript, PHP, Python, or other code snippets within WordPress posts, pages, or widgets. With built-in live preview support, syntax highlighting, and code editor features, it’s designed for sharing code in a clean, readable, and responsive format.
+[**Advance Custom HTML**](https://bplugins.com/products/advance-custom-html/) | [**Pricing**](https://bplugins.com/products/advance-custom-html/pricing/) | [**Support**](https://bplugins.com/support/) | [**Live Demo**](https://bplugins.com/products/advance-custom-html/#demos)
 
-This plugin includes a front-end code editor with a draggable preview panel, multiple syntax themes, and customizable settings for formatting and appearance. Ideal for tutorials, technical articles, and documentation, it provides a flexible way to embed and present code with real-time results.
+https://youtube.com/watch?v=BtTgKqqWIWw
 
+### Why Advance Custom HTML?
 
-[**Advance Custom HTML**](https://bplugins.com/products/advance-custom-html/) | [**Pricing**](https://bplugins.com/products/advance-custom-html/pricing/) | [**Support**](https://bplugins.com/support/) | [**Demo**](https://bplugins.com/products/advance-custom-html/#demos)
+Plain code dumps are hard to read and impossible to interact with. **Advance Custom HTML** lets you display HTML, CSS, JavaScript, PHP, Python and other code snippets in WordPress posts, pages, or widgets with built-in syntax highlighting, a clean code editor, and live preview support – so your readers see the code and the result side by side.
 
+The plugin includes a front-end code editor with a draggable preview panel, multiple syntax themes, and customizable settings for formatting and appearance. It is ideal for tutorials, technical articles, and documentation – a flexible, responsive way to embed and present code with real-time results.
 
-### Free Features – Everything You Need to Start
+### Free Features
 
-- **Edit code and preview output together** on the editor/backend.
+- **Edit Code with Live Preview:** Write code and see the rendered output together in the editor.
+- **Live Output Preview:** See the results of your code instantly.
+- **Autocomplete Suggestions:** Get smart suggestions while writing code.
+- **Draggable Preview Panel:** Move the output panel anywhere on screen.
+- **Editor Font Size:** Set the font size that suits your content.
+- **Fully Responsive:** Mobile-friendly code blocks and preview panels on every device.
+- **Lightweight and Fast:** Built for performance so your pages stay quick.
 
-- **Live Output Preview**: See the results of your code instantly
+### Pro Version – Unlock Advanced Controls
 
-- **Autocomplete suggestions** while writing code
-
-- Draggable **Preview Panel** to move output anywhere on screen
-
-- Set editor **Font Size**
-
-- **Fully responsive**, mobile-friendly interface
-
-- **Lightweight and fast** for better performance
-
-
-### Pro Features – Unlock Advanced Controls
 The [**Pro version**](https://bplugins.com/products/advance-custom-html/#pricing) offers extended customization and control over code presentation and layout.
 
-**What’s Included in Pro:**
+**Pro features include:**
 
-- Choose from **40+ editor themes** (dark, light, minimal, etc.)
+- Choose from **40+ editor themes** (dark, light, minimal, and more).
+- Adjust **tab size, line wrapping, and editor height/width**.
+- Change syntax mode per snippet: **HTML, CSS, JS, PHP, Python, and more**.
+- Toggle features: **copy button, fold gutter, highlight active line**, and more.
+- Customize the **Copy to Clipboard** button text, icon, style, and position.
+- Hide **headings or labels** for a clean, minimalist look.
+- Show or hide **line numbers** to simplify code presentation.
+- Enable or disable **wrap** to control line flow in your editor.
+- Set the code editor/snippet **height and width**, and align left, center, or right.
+- **Fold gutter** support for collapsing code blocks.
+- **Highlight active line** toggle for easier focus during tutorials.
 
-- Adjust **Tab size, line wrapping, editor height/width**
+### How to Use – Quick Start
 
-- Change syntax mode per snippet: **HTML, CSS, JS, PHP, Python, and more**
-
-- Toggle features: **Copy button, Fold gutter, Highlight active line**, etc.
-
-- Customize the **Copy to Clipboard** button text, icon, style, and position
-
-- Hide **Headings or Labels** for a clean, minimalist look
-
-- Hide or Show **Line numbers** to simplify code presentation
-
-- Enable or Disable **Wrap** to control line flow in your editor
-
-- Edit Code Editor/Snippet **Height and Width**, and align left, center, or right
-
-- **Fold Gutter** support for collapsing code blocks
-
-- **Highlight Active Line** Toggle for easier focus during tutorials
-
-
-### How to Use – Step-by-Step Guide
-
-#### Quick setup in just a few steps:
-
-- Install the **Advance Custom HTML**
-
-- Open the editor for any post or page
-
-- Click **Add Block** and select **Advance Custom HTML** under Widgets
-
-- Write or paste your code
-
-- Customize the settings (theme, preview, copy button)
-
-- Publish or update the content
-
-
-### Use Cases:
-
-- Write and preview front-end **HTML/CSS tutorials**
-
-- Embed **JavaScript snippets** with instant results
-
-- Display **PHP code** in educational content
-
-- Show **Python syntax** in data science blogs
-
-- Publish developer documentation or **API guides**
-
-- Create interactive code articles with **live editing**
-
-
-### Perfect For:
-
-- Bloggers and Tech Writers
-
-- Coaches, Instructors, and Course Creators
-
-- Web Developers and Designers
-
-- Software Product Sites
-
-- Niche Tutorials & SaaS Startups
-
-- Business Sites with Technical Content
-
-- Anyone publishing HTML, JS, CSS, PHP, or Python code
-
+1. Install and activate **Advance Custom HTML**.
+2. Open the editor for any post or page.
+3. Click **Add Block** and select **Advance Custom HTML** under Widgets.
+4. Write or paste your code.
+5. Customize the settings (theme, preview, copy button).
+6. Publish or update the content.
 
 [**Live Demo**](https://bplugins.com/products/advance-custom-html/#demos) | [**Buy The Pro**](https://bplugins.com/products/advance-custom-html/pricing)
 
+### Use Cases
+
+- **HTML/CSS Tutorials:** Write and preview front-end lessons with live results.
+- **JavaScript Demos:** Embed snippets with instant, interactive output.
+- **PHP Education:** Display PHP code cleanly in courses and articles.
+- **Data Science Blogs:** Show Python syntax with proper highlighting.
+- **Developer Documentation:** Publish API guides and reference docs.
+- **Interactive Articles:** Create code content readers can explore with live editing.
+
+Perfect for bloggers, tech writers, instructors and course creators, web developers, software product sites, and anyone publishing HTML, JS, CSS, PHP, or Python code.
 
 ### Check out our other WordPress Plugins-
 
@@ -134,23 +89,21 @@ The [**Pro version**](https://bplugins.com/products/advance-custom-html/#pricing
 
 [**Advanced Post Block**](https://bplugins.com/products/advanced-post-block/) – Show posts and custom posts in different layouts.
 
-
 == Installation ==
 
-= From Gutenberg Editor: =
-1. Go to the WordPress Block/Gutenberg Editor
-2. Search For **Advance Custom HTML**
-3. Click on the **Advance Custom HTML** block to add the block
+**From your WordPress dashboard (recommended):**
 
-= Download & Upload: =
-1. Download the **Advance Custom HTML** plugin (*.zip file*)
-2. In your admin area, go to the Plugins menu and click on **Add New**
-3. Click on **Upload Plugin** and choose the **`advance-custom-html.zip`** file and click on **Install Now**
-4. Activate the plugin and Enjoy!
+1. Go to **Plugins → Add New**.
+2. Search for **"Advance Custom HTML"**.
+3. Click **Install Now**, then **Activate**.
+4. Add the **Advance Custom HTML** block to any post or page.
 
-= Manually: =
-1. Download and upload the **Advance Custom HTML** plugin to the **`/wp-content/plugins/`** directory
-2. Activate the plugin through the Plugins menu in WordPress
+**Manual installation:**
+
+1. Download the plugin **.zip** file.
+2. In your admin area, go to **Plugins → Add New** and click **Upload Plugin**.
+3. Choose the **`advance-custom-html.zip`** file and click **Install Now**.
+4. Activate the plugin through the **Plugins** menu in WordPress.
 
 == Frequently Asked Questions ==
 
@@ -168,7 +121,11 @@ Yes. The plugin includes a draggable preview panel that shows live output for fr
 
 = Does this plugin support syntax highlighting? =
 
-Yes, syntax highlighting is built-in and supports multiple languages. You can also choose from over 40 editor themes to match your site.
+Yes, syntax highlighting is built in and supports multiple languages. You can also choose from over 40 editor themes to match your site.
+
+= Is Advance Custom HTML free? =
+
+Yes. The free version includes the live preview, autocomplete, draggable preview panel, and responsive code display. A Pro version adds 40+ editor themes, extra syntax modes, and fine-grained layout controls.
 
 = Can I disable certain features like the copy button or line numbers? =
 
@@ -188,7 +145,7 @@ You can choose from a wide range of themes and customize font size, spacing, lay
 
 = Does it work with any WordPress theme? =
 
-Yes, it will work with any standard WordPress theme.
+Yes, it works with any standard WordPress theme.
 
 = Can I change block settings? =
 
@@ -196,12 +153,11 @@ Yes, you can change block settings from the Gutenberg block editor's right sideb
 
 = Where can I get support? =
 
-You can post your questions on the [support forum here](https://wordpress.org/support/plugin/custom-html/)
+You can post your questions on the [support forum here](https://wordpress.org/support/plugin/custom-html/).
 
 = Where do I report security bugs found in this plugin? =
 
 Please report security bugs found in the source code of the Advance Custom HTML plugin through the [Patchstack Vulnerability Disclosure Program](https://patchstack.com/database/vdp/9e5fc69c-ad86-4b05-9ec9-ca0dec118598). The Patchstack team will assist you with verification, CVE assignment, and notify the developers of this plugin.
-
 
 == Screenshots ==
 
@@ -212,7 +168,6 @@ Please report security bugs found in the source code of the Advance Custom HTML 
 5. Preview Code snipped
 6. Preview Code snipped without heading
 7. Preview Code snipped with bottom copy button
-
 
 == Changelog ==
 
@@ -228,17 +183,17 @@ Please report security bugs found in the source code of the Advance Custom HTML 
 = 2.0.4 - 23 February 2026 =
 * **Update:** Redesigned the dashboard with a modern and improved user interface, replacing the previous outdated layout.
 
-= 2.0.3 - 2 December 2025 = 
+= 2.0.3 - 2 December 2025 =
 * Updated and offers to plugins description.
 
-= 2.0.2 - 25 November 2025 = 
+= 2.0.2 - 25 November 2025 =
 * Update freemius sdk and little fixes.
 
-= 2.0.1 - 5 November 2025 = 
+= 2.0.1 - 5 November 2025 =
 * Update free SDK
 
 = 2.0.0, 15 September, 2025 =
-* Update Modern Dashboard and Fixed Issues
+* Update Modern Dashboard and Fixed Issues.
 
 = 1.0.9 =
 * Fixed Issues
